@@ -192,7 +192,7 @@ int main(int argc, char const *argv[])
     double sum = 0;
     for(i=0; i<n; i++)
         sum += h_c[i];
-    printf("final result: %f\n", sum/n);
+    printf("final result: %f\n", sum);
  
     // release OpenCL resources
     clReleaseMemObject(d_a);
